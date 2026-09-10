@@ -1,0 +1,27 @@
+# Python virtual environment and local tooling
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.vscode/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated detection output and debug images
+detected_plates/*
+debug_last_crop.jpg
+
+# Large ML model weights
+*.pt
+*.onnx
+*.engine
+
+# OS files
+.DS_Store
+Thumbs.db
